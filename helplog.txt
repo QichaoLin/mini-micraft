@@ -1,0 +1,24 @@
+—--Milestone 1—--
+
+Christine Kneer
+2023-11-08 5:00pm: I wasn’t confident with my camera implementation since it looked dizzy. Adam helped me confirm during office hours.
+2023-11-10 2:00pm: Added and removed block does not reflect visually after merged. Fellow students (Annie’s group) during office hours suggested that Chunk’s VBO should be updated.
+Qichao Lin
+2023-11-10 3:00pm: Adam helped me fix the VBO bug (the visual display does not match the collision data) during office hours. Turns out there is an offset in setting up the VBO.
+Yin Tang
+2023-11-09 2:00pm: I wasn’t sure how to start on blending different terrains, ChatGPT gives me an example and Aeon gave me some suggestions on using FBM
+2023-11-09 5:45pm: TA helped me fix a bug updating worley noise 2nd nearest distance.
+
+—--Milestone 2—--
+
+Yin Tang
+2023-11-16 11:00 am: I asked ChatGPT to give me a random function that takes in a float and returns a float, which is used to generate the random gradient of each corner in PerlinNoise3D.
+2023-11-16 05:30 pm: Christine helped me walked through the player class and pointed out potential places for modifications of the player physics.
+2023-11-17 08:00 pm: TA Linda helped me debug the post-process shader incorrect resolution issue after resizing.
+
+Christine Kneer
+2023-11-17 18:00 pm: New chunk generation teleports the player to weird places. Adam helped me look through our game and determined that this should be rechecked after Multithread is merged.
+
+Qichao Lin
+2023-11-17 18:10 pm: The problem of multithreading initialization caused the entire program to fail to run. Adam helped me quickly locate the problem and solve it.
+​
